@@ -61,9 +61,9 @@ async def sedlyfsir(event):
 async def help(event):
     if event.query.user_id is not Config.OWNER_ID:
         await event.edit(
-            "You Can Deploy Your Own ChatBot By Watching Video Down There. \nThank You For Contacting Me.",
+            "You Can Contact me only if you are a user of @tamilsongsflac. \nThank You For Contacting Me.",
             buttons=[
-                [Button.url("Join my Owner Channel 📺", "t.me/tamilsongsflac")],
+                [Button.url("Join my Owner Channel 🎶", "t.me/tamilsongsflac")],
                 [Button.url("Need Help ❓", "t.me/skyleedlbot")],
             ],
         )
