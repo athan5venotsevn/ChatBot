@@ -50,8 +50,8 @@ async def sedlyfsir(event):
             add_usersid_in_db(event.sender_id)
             await chatbot.send_message(Config.DUMB_CHAT, f"NEW USER ! \nUser ID : `{event.chat_id}`")
         await chatbot.send_file(event.chat_id, file=Config.CUSTOM_IMG, caption=text_me, buttons = [
-             [custom.Button.inline("💙💙Love You💙💙", data="mewant")],
-             [custom.Button.inline("💙💙Susy💙😇", data="close ")],
+             [custom.Button.inline("🎵TAMIL SONGS Hi-RES", data="mewant")],
+             [custom.Button.inline("❌CLOSE", data="close ")],
               ]
              )
     
